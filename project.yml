@@ -1,0 +1,9 @@
+name: ReusabilitySample
+options:
+    bundleIdPrefix: su.kornerr
+targets:
+    ReusabilitySample:
+        type: application
+        platform: iOS
+        deploymentTarget: "9.0"
+        sources: [src]
