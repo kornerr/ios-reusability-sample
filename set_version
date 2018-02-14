@@ -1,0 +1,29 @@
+#!/bin/bash
+dir=`dirname $0`
+id=$@
+version=$id
+
+src_files="
+AppDelegate.swift
+S1.swift
+S2.swift
+"
+verbatim_files="
+Info.plist
+Main.storyboard
+"
+
+dst=$dir/src
+mkdir -p $dst
+echo "Set version to '$version'"
+# Source files.
+for file in $src_files; do
+    echo "Copying '$file' to '$dst'"
+    cp $dir/versions/$version/$file $dst/ 2>/dev/null
+done
+# Verbatim files.
+for file in $verbatim_files; do
+    echo "Copying '$file' to '$dst'"
+    cp $dir/versions/$version/$file $dst/ 2>/dev/null
+done
+
