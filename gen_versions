@@ -4,7 +4,7 @@
 
 dir=`dirname $0`
 
-max_version_id=1
+max_version_id=2
 
 for id in $(seq 1 $max_version_id); do
     version=$id

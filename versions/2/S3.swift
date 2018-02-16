@@ -1,13 +1,13 @@
 
 import UIKit
 
-class S2: UIViewController {
+class S3: UIViewController {
 
-    // S2+Dismission Start
+    // S3+Dismission Start
     @IBAction func hideMe(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    // S2+Dismission End
+    // S3+Dismission End
     
 }
 

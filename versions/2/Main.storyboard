@@ -83,7 +83,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36v-6u-hxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1335" y="30"/>
+            <point key="canvasLocation" x="814" y="659"/>
+        </scene>
+        <!--S3-->
+        <scene sceneID="Tuk-K8-P9m">
+            <objects>
+                <viewController id="FJ1-iQ-waF" userLabel="S3" customClass="S3" customModule="ReusabilitySample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SpO-tb-NLh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bY9-4J-iGq">
+                                <rect key="frame" x="0.0" y="159" width="375" height="119.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1n0-PX-8W5">
+                                <rect key="frame" x="0.0" y="328.5" width="375" height="30"/>
+                                <state key="normal" title="Hide me"/>
+                                <connections>
+                                    <action selector="hideMe:" destination="FJ1-iQ-waF" eventType="touchUpInside" id="dmb-t0-zFG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1n0-PX-8W5" firstAttribute="top" secondItem="bY9-4J-iGq" secondAttribute="bottom" constant="50" id="Cu4-mX-ue9"/>
+                            <constraint firstItem="1n0-PX-8W5" firstAttribute="centerY" secondItem="4GL-l8-xDf" secondAttribute="centerY" id="cBN-8H-TCO"/>
+                            <constraint firstItem="1n0-PX-8W5" firstAttribute="leading" secondItem="4GL-l8-xDf" secondAttribute="leading" id="heW-uE-ibk"/>
+                            <constraint firstItem="1n0-PX-8W5" firstAttribute="trailing" secondItem="4GL-l8-xDf" secondAttribute="trailing" id="lZj-kO-sja"/>
+                            <constraint firstItem="bY9-4J-iGq" firstAttribute="leading" secondItem="4GL-l8-xDf" secondAttribute="leading" id="o8b-8T-xtI"/>
+                            <constraint firstItem="bY9-4J-iGq" firstAttribute="trailing" secondItem="4GL-l8-xDf" secondAttribute="trailing" id="pK6-h8-axZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4GL-l8-xDf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQB-nO-9u1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="1352"/>
         </scene>
     </scenes>
 </document>

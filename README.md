@@ -14,6 +14,6 @@ You must have [feature-tool][feature-tool] in your $PATH to generate versions.
 * Open generated `ReusabilitySample.xcodeproj` with Xcode
 * Run the project as usual
 
-**Note**: only use `gen_version` for development.
+**Note**: only use `gen_versions` for development.
 
 [feature-tool]: https://bitbucket.org/ogstudio/feature-tool
