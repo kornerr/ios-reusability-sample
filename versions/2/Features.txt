@@ -1,4 +1,4 @@
 AppDelegate+None
-S1+Presentation
+S1+PresentationSelection
 S2+Dismission
 S3+Dismission
