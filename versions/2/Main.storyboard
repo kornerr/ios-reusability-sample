@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="328.5" width="375" height="30"/>
                                 <state key="normal" title="Show another screen"/>
                                 <connections>
-                                    <action selector="displayS2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bIu-fg-8wc"/>
+                                    <action selector="displayS2OrS3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYu-Bw-w4m"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VV7-bu-n8q">
