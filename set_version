@@ -8,6 +8,7 @@ AppDelegate.swift
 S1.swift
 S2.swift
 S3.swift
+SCoordinator.swift
 "
 verbatim_files="
 Info.plist
