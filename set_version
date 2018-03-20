@@ -13,6 +13,7 @@ SCoordinator.swift
 verbatim_files="
 Info.plist
 Main.storyboard
+SwiftReporter.swift
 "
 
 dst=$dir/src
