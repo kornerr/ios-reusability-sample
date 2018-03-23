@@ -1,0 +1,8 @@
+AppDelegate+SCoordinator
+SCoordinator+S1
+SCoordinator+S1DisplayS2OrS3
+S1+ReportS2OrS3
+S2+ReporterBag
+S2+HideReport
+S3+ReporterBag
+S3+HideReport
