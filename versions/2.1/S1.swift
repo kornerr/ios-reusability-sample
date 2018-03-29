@@ -5,11 +5,10 @@ class S1: UIViewController {
 
     // S1+Report Start
     
-    let displayS2Report = Reporter()
+    let displayAnotherScreenReport = Reporter()
     
-    @IBAction func displayS2(_ sender: Any) {
-        // Report the need to display S2.
-        self.displayS2Report.report()
+    @IBAction func displayAnotherScreen(_ sender: Any) {
+        self.displayAnotherScreenReport.report()
     }
     // S1+Report End
 

@@ -33,7 +33,7 @@ class SCoordinator {
     // SCoordinator+S1DisplayS2 Start
     
     private func setupS1ToDisplayS2() {
-        self.s1.displayS2Report.subscribe { [unowned self] in
+        self.s1.displayAnotherScreenReport.subscribe { [unowned self] in
             // Create S2.
             let s2: S2 = self.vc(name: "S2")
     

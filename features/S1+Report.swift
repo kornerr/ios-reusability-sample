@@ -1,8 +1,7 @@
 FEATURE S1.swift/Impl
 
-let displayS2Report = Reporter()
+let displayAnotherScreenReport = Reporter()
 
-@IBAction func displayS2(_ sender: Any) {
-    // Report the need to display S2.
-    self.displayS2Report.report()
+@IBAction func displayAnotherScreen(_ sender: Any) {
+    self.displayAnotherScreenReport.report()
 }
