@@ -3,15 +3,14 @@ import UIKit
 
 class S1: UIViewController {
 
-    // S1+ReportS2OrS3 Start
+    // S1+Report Start
     
-    let displayS2OrS3Report = Reporter()
+    let displayAnotherScreenReport = Reporter()
     
-    @IBAction func displayS2OrS3(_ sender: Any) {
-        // Report the need to display S2 or S3.
-        self.displayS2OrS3Report.report()
+    @IBAction func displayAnotherScreen(_ sender: Any) {
+        self.displayAnotherScreenReport.report()
     }
-    // S1+ReportS2OrS3 End
+    // S1+Report End
 
 }
 

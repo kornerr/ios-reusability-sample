@@ -3,7 +3,7 @@ self.setupS1ToDisplayS2OrS3()
 
 FEATURE SCoordinator.swift/Impl
 private func setupS1ToDisplayS2OrS3() {
-    self.s1.displayS2OrS3Report.subscribe { [unowned self] in
+    self.s1.displayAnotherScreenReport.subscribe { [unowned self] in
         let sheet = UIAlertController(title: "Select", message: nil, preferredStyle: .actionSheet)
         sheet.addAction(
             UIAlertAction(
