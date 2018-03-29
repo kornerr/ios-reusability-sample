@@ -18,6 +18,8 @@ SwiftReporter.swift
 
 dst=$dir/src
 mkdir -p $dst
+# Clear previous Swift files.
+rm $dst/*.swift
 echo "Set version to '$version'"
 # Source files.
 for file in $src_files; do

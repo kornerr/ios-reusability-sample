@@ -6,7 +6,7 @@ private func displayScreen(name: String) {
     self.present(vc, animated: true, completion: nil)
 }
 
-@IBAction func displayS2OrS3(_ sender: Any) {
+@IBAction func displayAnotherScreen(_ sender: Any) {
     let sheet = UIAlertController(title: "Select", message: nil, preferredStyle: .actionSheet)
     sheet.addAction(
         UIAlertAction(
