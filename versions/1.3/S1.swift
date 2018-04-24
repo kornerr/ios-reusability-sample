@@ -13,24 +13,12 @@ class S1: UIViewController {
     
     @IBAction func displayAnotherScreen(_ sender: Any) {
         let sheet = UIAlertController(title: "Select", message: nil, preferredStyle: .actionSheet)
-        sheet.addAction(
-            UIAlertAction(
-                title: "Display S2",
-                style: .default,
-                handler: { [unowned self] _ in
-                    self.displayScreen(name: "S2")
-                }
-            )
-        )
-        sheet.addAction(
-            UIAlertAction(
-                title: "Display S3",
-                style: .default,
-                handler: { [unowned self] _ in
-                    self.displayScreen(name: "S3")
-                }
-            )
-        )
+        sheet.addAction("Display S2") { [unowned self] _ in
+            self.displayScreen(name: "S2")
+        }
+        sheet.addAction("Display S3") { [unowned self] _ in
+            self.displayScreen(name: "S3")
+        }
         self.present(sheet, animated: true, completion: nil)
     }
     

@@ -1,4 +1,5 @@
-AppDelegate+None
+AppDelegate+Stub
+UIAlertController+addAction+Stub
 S1+PresentationSelection
 S2+Dismission
 S3+Dismission

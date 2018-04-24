@@ -10,7 +10,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
     ) -> Bool {
-        // FEATURE AppDelegate+None/Setup
+        // FEATURE AppDelegate+Stub/Impl
         // FEATURE AppDelegate+SCoordinator/Setup
         return true
     }

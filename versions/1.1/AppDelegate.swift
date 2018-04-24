@@ -10,9 +10,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
     ) -> Bool {
-        // AppDelegate+None Start
+        // AppDelegate+Stub Start
         // Storyboard controls everything. Nothing to do here.
-        // AppDelegate+None End
+        // AppDelegate+Stub End
         return true
     }
 
