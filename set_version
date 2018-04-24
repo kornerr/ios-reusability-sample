@@ -9,6 +9,7 @@ S1.swift
 S2.swift
 S3.swift
 SCoordinator.swift
+NavigationCallback.swift
 UIAlertController+addAction.swift
 "
 verbatim_files="

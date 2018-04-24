@@ -1,6 +1,7 @@
+UIAlertController+addAction+Stub
 AppDelegate+SCoordinator
+NavigationCallback+Stub
 SCoordinator+S1
 SCoordinator+S1DisplayS2
-S1+Report
-S2+ReporterBag
+S1+DisplayReport
 S2+HideReport
