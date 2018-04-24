@@ -3,14 +3,16 @@ import UIKit
 
 class S1: UIViewController {
 
-    // S1+Report Start
+    // S1+DisplayReport Start
     
-    let displayAnotherScreenReport = Reporter()
+    var displayAnotherScreenReport: NavigationCallback?
     
     @IBAction func displayAnotherScreen(_ sender: Any) {
-        self.displayAnotherScreenReport.report()
+        if let report = self.displayAnotherScreenReport {
+            report()
+        }
     }
-    // S1+Report End
+    // S1+DisplayReport End
 
 }
 

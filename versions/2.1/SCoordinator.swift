@@ -41,8 +41,7 @@ class SCoordinator {
     
             // Hide S2 when prompted.
             screen.hideReport = { [weak screen] in
-                guard let strongScreen = screen else { return }
-                strongScreen.dismiss(animated: true, completion: nil)
+                screen?.dismiss(animated: true, completion: nil)
             }
         }
     }

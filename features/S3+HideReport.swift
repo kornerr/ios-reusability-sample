@@ -1,8 +1,9 @@
 FEATURE S3.swift/Impl
 
-let hideReport = Reporter()
+var hideReport: NavigationCallback?
 
 @IBAction func hideMe(_ sender: Any) {
-    // Report the need to hide ourselves.
-    self.hideReport.report()
+    if let report = self.hideReport {
+        report()
+    }
 }
